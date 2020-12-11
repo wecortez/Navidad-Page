@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../img/christmas-1911637_1920.jpg');
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor{
+    background: rgba(255, 255, 255, .85);
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contenedor header{
+    background-color:  rgba(32, 151, 21, 0.8);
+    padding: 20px 0px;
+}
+
+.contenedor header ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    justify-items: center;
+}
+
+.contenedor header ul li a{
+    display: grid;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px 20px 5px 20px;
+    border-bottom: 2px solid transparent;
+    transition: .5s;
+}
+
+.contenedor header ul li a:hover{
+    border-bottom: 2px solid #fff;
+    color:  #fff;
+}
+
+.contenedor main{
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.contenedor main>h1{
+    font-family: 'Mountains of Christmas', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.contenedor main section h2{
+    cursor: pointer;
+}
+
+.contenedor main section article{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+
+.contenedor main section .saludo{
+    background-color: #868484;
+    color: #fff;
+}
+
+.contenedor main section .saludo p{
+    margin-bottom: 20px;
+    line-height: 27px;
+    text-align: justify;
+}
+
+.contenedor main section .Lista{
+    background-color: #555861;
+    color: #fff;
+}
+
+.contenedor main section .Lista ul{
+    padding-left: 20px;
+    list-style: square;
+}
+
+.contenedor main section .Despedida{
+    background-color: #868484;
+    color: #fff;
+}
+
+.contenedor footer{
+    background-color:  rgba(32, 151, 21, 0.8);
+    padding: 20px;
+    color: #fff;
+}
+
+.contenedor footer p{
+    font-weight: bold;
+    text-align: center;
+}
+
+.contenedor footer .redes-sociales{
+    margin-top: 10px;
+    display: grid;
+    justify-items: center;
+}
+
+.contenedor footer .redes-sociales ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2,50px);
+    column-gap: 20px;
+}
+
+
+.contenedor footer .redes-sociales ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contenedor footer .redes-sociales ul .fa-facebook-f{
+    background-color: #0778E8;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.contenedor footer .redes-sociales ul .fa-telegram-plane{
+    background-color: #27A7E7;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.contenedor footer .redes-sociales ul .fa-facebook-f:hover{
+    background-color: #fff;
+    color: #0778E8;
+    cursor: pointer;
+}
+
+.contenedor footer .redes-sociales ul .fa-telegram-plane:hover{
+    background-color: #fff;
+    color: #27A7E7;;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px){
+    .contenedor{
+        width: 100%;
+    }
+    .contenedor header ul{
+        grid-template-columns: repeat(4, 23%);
+        row-gap: 20px;
+    }
+
+    .contenedor header ul li a{
+        padding: 0;
+    }
+}
+
+
+
+
+
+
